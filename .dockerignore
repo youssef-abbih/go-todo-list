@@ -1,0 +1,22 @@
+# Ignore tests and test files to keep build context small
+**/*_test.go
+tests/
+
+# Ignore local database file if you don't want it copied inside the image
+tasks.db
+
+# Ignore version control files and folders
+.git
+.gitignore
+
+# Ignore documentation files
+*.md
+
+# Ignore logs and binaries
+*.log
+*.exe
+*.out
+*.bin
+
+# Ignore Dockerfile itself (optional)
+Dockerfile

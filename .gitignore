@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.coverprofile
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Database files
+tasks.db
+
+# Logs
+*.log
+
+# Dependency directories (if not vendoring)
+bin/
