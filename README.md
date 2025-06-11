@@ -166,6 +166,12 @@ Use it to test and explore your API.
 * Security headers are added globally via middleware.
 * Graceful shutdown is handled on `SIGINT` / `SIGTERM`.
 
+## Next Steps
+
+* Fix Unit Tests
+* Add End-to-End Tests
+* Implement Pagination
+
 ---
 
 ## 📚 License
